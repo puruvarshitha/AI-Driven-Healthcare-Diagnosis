@@ -3,7 +3,7 @@ import pickle
 from streamlit_option_menu import option_menu
 
 # Change Name & Logo
-st.set_page_config(page_title="Disease Prediction", page_icon="⚕️")
+st.set_page_config(page_title="Diagnosis", page_icon="⚕️")
 
 # Hiding Streamlit add-ons
 hide_st_style = """
@@ -16,7 +16,7 @@ hide_st_style = """
 st.markdown(hide_st_style, unsafe_allow_html=True)
 
 # Adding Background Image
-background_image_url = "https://www.strategyand.pwc.com/m1/en/strategic-foresight/sector-strategies/healthcare/ai-powered-healthcare-solutions/img01-section1.jpg"  # Replace with your image URL
+background_image_url = "https://i.postimg.cc/G3WQF5Jr/ai-healthcare.png"
 
 page_bg_img = f"""
 <style>
